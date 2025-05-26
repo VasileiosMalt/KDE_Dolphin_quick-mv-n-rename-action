@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;all/allfiles;
+Actions=MoveFiles
+X-KDE-Priority=TopLevel
+
+[Desktop Action MoveFiles]
+Name=Move to New Folder
+Exec= ~/Documents/automation/move_files_to_new.sh %F
+Icon=folder-move
