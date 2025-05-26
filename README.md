@@ -1,4 +1,4 @@
-# 🚀 KDE Dolphin Smart File Organizer
+# 🧠 KDE Dolphin Smart File Organizer
 
 **Next-generation file management automation for KDE Plasma**
 
