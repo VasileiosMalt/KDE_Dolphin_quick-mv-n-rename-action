@@ -120,3 +120,14 @@ automation/
 - Check script permissions: `ls -la move_files_to_new.sh`
 - Verify path in `.desktop` file is absolute
 - Test manually: `./move_files_to_new.sh testfile.txt`
+
+## 💖 Support Development
+
+If you find this tool helpful, you can support the development of this and similar tools through cryptocurrency donation:
+
+| Cryptocurrency | Address |
+|----------------|---------|
+| 💰 **Bitcoin (BTC)** | `bc1qjq8rmvkvautk2t9urm739vuw3gn00zd5l9qmqd` |
+| 💎 **Ethereum (ETH)** | `0x530B73D02793b5bB12C7571A053c81883cE078FD` |
+| 🔷 **Polygon** | `0x530B73D02793b5bB12C7571A053c81883cE078FD` |
+| ☀️ **Solana (SOL)** | `BEDzMx27TPRh6d1tJokGuSLec4yut7KJaw1QoZRJw7bH` |
