@@ -2,7 +2,7 @@
 
 **Next-generation file management automation for KDE Plasma**
 
-Instantly organize your files with AI-like intelligence - select files, right-click, and watch them automatically sort into intelligently named folders based on temporal analysis.
+Instantly organize your files - Select files, right-click, and watch them automatically sort into named folder based on temporal analysis.
 
 ## ⚡ What It Does
 
@@ -63,22 +63,22 @@ Downloads/
 ├── old_document.pdf
 ├── budget_2025.xlsx
 ├── meeting_recording.mp4
-└── latest_report.txt        (newest)
+└── reports.txt        (newest)
 ```
 
 **After using "Move to New Folder":**
 ```
 Downloads/
-└── latest_report/           ← Named after newest file
+└── reports/           ← Named after newest file
     ├── old_document.pdf
     ├── budget_2025.xlsx
     ├── meeting_recording.mp4
-    └── latest_report.txt
+    └── reports.txt
 ```
 
 ## 🔧 System Requirements
 
-- **OS**: KDE Plasma 5/6
+- **OS**: KDE Plasma
 - **File Manager**: Dolphin
 - **Shell**: Bash
 
@@ -87,6 +87,10 @@ Downloads/
 - **No Overwrites**: Aborts if target folder already exists
 - **File Preservation**: Original timestamps and permissions maintained
 - **Smart Detection**: Only processes regular files (ignores directories)
+
+## ⚠️ ATTENTION
+
+- **If you have a dir named exactly "NewFolder" in your CWD**: it will merge the selected files with it and then rename it.
 
 ## 🔍 Technical Details
 
@@ -116,7 +120,3 @@ automation/
 - Check script permissions: `ls -la move_files_to_new.sh`
 - Verify path in `.desktop` file is absolute
 - Test manually: `./move_files_to_new.sh testfile.txt`
-
----
-
-**⚡ Pro Tip**: This tool is perfect for organizing downloads, project files, or any batch of files that need logical grouping. The temporal analysis ensures your most recent (newest) file determines the folder name, keeping your latest work as the main identifier.
