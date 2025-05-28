@@ -5,7 +5,7 @@
 </div>
 
 
-**Next-generation file management automation for KDE Plasma**
+**File management automation for KDE Plasma**
 
 Instantly organize your files - Select files, right-click, and watch them automatically sort into named folder based on temporal analysis.
 
