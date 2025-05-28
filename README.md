@@ -1,6 +1,6 @@
 # 🧠 KDE Dolphin Smart File Organizer
 
-![KDE Dolphin Smart File Organizer Logo](smart-organizer.png)
+<img src="smart-organizer.png" alt="KDE Dolphin Smart File Organizer Logo" width="300">
 
 **Next-generation file management automation for KDE Plasma**
 
