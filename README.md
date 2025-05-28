@@ -1,7 +1,7 @@
 # 🧠 KDE Dolphin Smart File Organizer
-
-<img src="smart-organizer.png" alt="KDE Dolphin Smart File Organizer Logo" width="300">
-
+<div align="center">
+  <img src="smart-organizer.png" alt="KDE Dolphin Smart File Organizer Logo" width="400">
+</div>
 **Next-generation file management automation for KDE Plasma**
 
 Instantly organize your files - Select files, right-click, and watch them automatically sort into named folder based on temporal analysis.
